@@ -1,0 +1,11 @@
+#mymap-display {
+    transition: opacity 600ms;
+}
+
+.map-hidden {
+    opacity: 0;
+}
+
+.map-visible {
+    opacity: 1;
+}

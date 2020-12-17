@@ -1,0 +1,11 @@
+.hours {
+    flex-direction: column;
+}
+
+.hours > div {
+    display: flex;
+}
+
+.hours span {
+    margin-left: auto;
+}

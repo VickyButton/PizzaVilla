@@ -1,0 +1,11 @@
+.quick-contact {
+    flex-direction: column;
+}
+
+.quick-contact > div {
+    display: flex;
+}
+
+.quick-contact span {
+    margin-left: auto;
+}

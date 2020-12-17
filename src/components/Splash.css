@@ -1,0 +1,14 @@
+.splash {
+    position: relative;
+    justify-content: flex-end;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.splash-image {
+    z-index: 1;
+    top: 0; left: 0;
+    position: fixed;
+    height: 100%;
+    user-select: none;
+}

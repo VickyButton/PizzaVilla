@@ -1,0 +1,14 @@
+.site-map {
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.site-map a {
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.site-map a:hover {
+    text-decoration: underline;
+}

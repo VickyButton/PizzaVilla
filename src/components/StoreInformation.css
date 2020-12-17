@@ -1,0 +1,26 @@
+.store-information {
+    flex-direction: column;
+    color: rgb(97, 97, 97);
+    font-size: 1.2rem;
+}
+
+.store-information h2 {
+    margin: 0;
+    font-family: var(--montserrat);
+    font-size: 1.35rem;
+    color: rgb(70, 70, 70);
+}
+
+.store-information > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .store-information {
+        padding: 0 0 40px;
+    }
+}

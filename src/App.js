@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import React from 'react'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
+
+import About from './components/About'
+import Home from './components/Home'
+import Menu from './components/Menu'
+
+window.siteInfo = require('./restaurant-information.json');
+window.primary = window.siteInfo.colors.primary || 'rgb(46,54,60)';
+window.secondary = window.siteInfo.colors.secondary || 'rgb(231,223,213)';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route path='/' exact component={Home}/>
+      <Route path='/menu' component={Menu}/>
+      <Route path='/about' component={About}/>
+    </Router>
   );
 }
 

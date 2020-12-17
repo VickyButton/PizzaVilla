@@ -1,0 +1,24 @@
+.cutout {
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 40px 30px;
+    width: 100%;
+    background: rgb(255,255,255);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 1px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    color: rgb(97, 97, 97);
+    font-size: 1.2rem;
+}
+
+.cutout > h2 {
+    font-family: var(--montserrat);
+    font-size: 1.65rem;
+    color: rgb(70, 70, 70);
+}
+
+@media only screen and (max-width: 600px) {
+    .cutout {
+        padding: 40px 20px;
+    }
+}
