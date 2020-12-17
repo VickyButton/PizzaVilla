@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import './SplashCard.css'
 
 import Cutout from './Cutout'
 import SiteMap from './SiteMap'
 import SiteSignature from './SiteSignature'
-import Socials from './Socials'
+// import Socials from './Socials'
 import StoreInformation from './StoreInformation'
 
 function SplashCard(props) {
